@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPFS Rainbow Test</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 80%;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .rainbow-text {
+            background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .color-bar {
+            height: 20px;
+            margin: 10px 0;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        .color-bar:hover {
+            transform: scaleX(1.05);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>IPFS Rainbow Test Page</h1>
+        <p class="rainbow-text">Welcome to the colorful world of IPFS!</p>
+        <p>This page demonstrates a vibrant design for IPFS testing.</p>
+        <div class="color-bar" style="background-color: #FF6B6B;"></div>
+        <div class="color-bar" style="background-color: #FFD93D;"></div>
+        <div class="color-bar" style="background-color: #6BCB77;"></div>
+        <div class="color-bar" style="background-color: #4D96FF;"></div>
+    </div>
+</body>
+</html>
